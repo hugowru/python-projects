@@ -6,7 +6,7 @@ def bubble_sort(arr):
             if arr[j] > arr[j + 1]:
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
 
-n = int(input("Enter the number of elements: "))
+n = int(input("Number of elemnets: "))
 numbers = []
 
 for _ in range(n):
